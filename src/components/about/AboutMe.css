@@ -1,0 +1,61 @@
+.AboutMe-container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 2.5rem 0;
+ background-color: var(--black);
+}
+.about-pannel-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--primaryfont);
+}
+.AboutME-content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+}
+.about-Image {
+  border-radius: 100%;
+  width: 15rem;
+  padding: 1rem;
+  border: 1px solid var(--secondary);
+}
+.about-description {
+  width: 50%;
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+
+  /* gap: 2rem; */
+}
+.about-description button {
+  margin-top: 2rem;
+  font-family: inherit;
+  width: 13rem;
+  padding: 0.25rem 2rem;
+  border-radius: 5px;
+  color: var(--black);
+  font-size: 0.9rem;
+  font-weight: 500;
+  background-color: var(--secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+@media (max-width: 768px) {
+  .about-description {
+    text-align: center;
+    width: 100%;
+    /* padding: 1rem 0; */
+    align-items: center;
+    justify-content: center;
+  }
+  .AboutME-content-wrapper {
+    flex-direction: column;
+  }
+}

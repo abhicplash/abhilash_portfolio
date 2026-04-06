@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira+Stencil:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Saira Stencil", sans-serif;
+}
+:root {
+  --black: #000000;
+  --secondary: #00dbc6;
+  --primaryfont: #cccccc;
+  --primarybg: #1d1d1d;
+  --secondarybg: #131313;
+}
+html {
+  scroll-behavior: smooth;
+}
+section {
+  scroll-margin-top: 80px;
+}
+a {
+  text-decoration: none;
+}
