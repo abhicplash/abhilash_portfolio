@@ -17,17 +17,25 @@ const HomeBanner = () => {
           apps. <br /> Turning ideas into simple, smooth user experiences.
         </p>
         <div className="hb-icons-wrapper">
-          <a href="https://github.com/abhicplash" target="_blank">
+          <a
+            href="https://github.com/abhicplash"
+            target="_blank"
+            title="gitHub"
+          >
             <div className="hb-icon">
               <TbBrandGithubFilled />
             </div>
           </a>
-          <a href="https://www.linkedin.com/in/abhilashcp/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/abhilashcp/"
+            target="_blank"
+            title="LinkedIn"
+          >
             <div className="hb-icon">
               <FaLinkedinIn />
             </div>
           </a>
-          <a href="mailto:abhicplash@gmail.com" target="_blank">
+          <a href="mailto:abhicplash@gmail.com" target="_blank" title="mail">
             <div className="hb-icon">
               <SiGmail />
             </div>

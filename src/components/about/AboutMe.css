@@ -11,6 +11,12 @@
   justify-content: center;
   color: var(--primaryfont);
 }
+.about-pannel-head h6{
+  color: var(--secondary);
+}
+h3 .me{
+  color:var(--secondary);
+}
 .AboutME-content-wrapper {
   display: flex;
   justify-content: center;

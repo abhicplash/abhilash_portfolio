@@ -3,13 +3,16 @@ import "./AboutMe.css";
 import aboutImg from "../../assets/personal/abhilash.jpeg";
 import { PiReadCvLogo } from "react-icons/pi";
 import Skills from "../skills/Skills";
+import resume from "../../resume/Abhilash CP.pdf";
 
 const AboutMe = () => {
   return (
     <div className="AboutMe-container">
       <div className="about-pannel-head">
         <h6>MY BIO</h6>
-        <h3>About Me.</h3>
+        <h3>
+          About <span className="me">Me</span>{" "}
+        </h3>
         <div className="AboutME-content-wrapper">
           <img src={aboutImg} alt="Abhilash" className="about-Image" />
           <div className="about-description">
@@ -33,9 +36,11 @@ const AboutMe = () => {
               user-centric applications that provide seamless digital
               experiences.
             </p>
-            <button>
-              View Resume <PiReadCvLogo />{" "}
-            </button>
+            <a href={resume} target="_blank">
+              <button>
+                View Resume <PiReadCvLogo />{" "}
+              </button>
+            </a>
           </div>
         </div>
       </div>

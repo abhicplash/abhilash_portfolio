@@ -7,6 +7,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 1rem;
 }
 .contact-container .getinTouch {
   color: var(--secondary);
@@ -15,4 +16,61 @@
 }
 .contact-container .me {
   color: var(--secondary);
+}
+.contact-container .contact-Para {
+  text-align: center;
+  font-size: 0.8rem;
+}
+.contact-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #111;
+  padding: 1.5rem;
+  gap: 0.9rem;
+  width: 20rem;
+  border-radius: 2.5px;
+  border: 1px solid rgba(255, 255, 255, 0.192);
+}
+.input-box-wrapper input {
+  width: 100%;
+  height: 2.2rem;
+  background-color: var(--black);
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  padding: 5px;
+  color: var(--primaryfont);
+  border-radius: 5px;
+}
+.input-box-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  width: 100%;
+}
+.input-box-wrapper textarea {
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  padding: 5px;
+  border-radius: 5px;
+  background-color: var(--black);
+  height: 6rem;
+  color: var(--primaryfont);
+}
+.contact-form button {
+  /* width: 7rem; */
+  padding: 0.35rem 2rem;
+  background-color: var(--secondary);
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: center;
+  gap: 5px;
+}
+@media (max-width: 768px) {
+  .contact-form {
+    width: 85%;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.151);
+  }
 }

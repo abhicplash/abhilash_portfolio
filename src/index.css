@@ -7,7 +7,9 @@
 }
 :root {
   --black: #000000;
-  --secondary: #00dbc6;
+  /* --secondary: #00dbc6; */
+  --secondary: #307357;
+  /* --secondary: #10b981; */
   --primaryfont: #cccccc;
   --primarybg: #1d1d1d;
   --secondarybg: #131313;
