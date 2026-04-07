@@ -2,6 +2,8 @@ import React from "react";
 import Layout from "../components/Layout/Layout";
 import HomeBanner from "../components/HomeBanner/HomeBanner";
 import AboutMe from "../components/about/AboutMe";
+import Projects from "../components/Projects/Projects";
+import Contact from "../components/Contact/Contact";
 
 const Home = () => {
   return (
@@ -16,11 +18,11 @@ const Home = () => {
       
 
       <section id="project">
-        <h1>Project</h1>
+        <Projects/>
       </section>
 
       <section id="contact">
-        <h1>Contact</h1>
+        <Contact/>
       </section>
     </Layout>
   );
